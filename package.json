@@ -1,0 +1,25 @@
+{
+  "name": "ilan-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp ile ilan bildirimi gönderen bot",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer": "^21.5.2",
+    "qrcode-terminal": "^0.12.0",
+    "telegram": "^2.26.22",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
